@@ -1,0 +1,75 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dE:/FPGA/Lab_1_6/Decoder_2to4/Sim/modelsim/questa
+T_opt
+!s110 1729074825
+VJ95bGQ2ZgF;XifV`BT^_73
+04 15 4 work tb_Decoder_2to4 fast 0
+=1-581122de1888-670f9688-356-d4e8
+R0
+!s12b OEM100
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2023.3;77
+vDecoder_2to4
+2E:/FPGA/Lab_1_6/Decoder_2to4/RTL/Decoder_2to4.v
+!s110 1729074823
+!i10b 1
+!s100 =`0<UdHCWR=UcBLBbV=hd0
+IVk:U0GGiP4HhzPIP486cO2
+R1
+w1729070544
+8E:/FPGA/Lab_1_6/Decoder_2to4/RTL/Decoder_2to4.v
+FE:/FPGA/Lab_1_6/Decoder_2to4/RTL/Decoder_2to4.v
+!i122 0
+L0 1 10
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OL;L;2023.3;77
+r1
+!s85 0
+31
+!s108 1729074823.000000
+!s107 E:/FPGA/Lab_1_6/Decoder_2to4/RTL/Decoder_2to4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/FPGA/Lab_1_6/Decoder_2to4/RTL|E:/FPGA/Lab_1_6/Decoder_2to4/RTL/Decoder_2to4.v|
+!i113 0
+Z5 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work +incdir+E:/FPGA/Lab_1_6/Decoder_2to4/RTL -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@decoder_2to4
+vtb_Decoder_2to4
+2E:/FPGA/Lab_1_6/Decoder_2to4/Quartus_prj/../Sim/tb_Decoder_2to4.v
+!s110 1729074824
+!i10b 1
+!s100 64F7lGF]B56l9NjR_OdGJ0
+IEeYaP5OoTQ4Ah4Fgz2F>o3
+R1
+w1729074189
+8E:/FPGA/Lab_1_6/Decoder_2to4/Quartus_prj/../Sim/tb_Decoder_2to4.v
+FE:/FPGA/Lab_1_6/Decoder_2to4/Quartus_prj/../Sim/tb_Decoder_2to4.v
+!i122 1
+L0 2 45
+R3
+R4
+r1
+!s85 0
+31
+!s108 1729074824.000000
+!s107 E:/FPGA/Lab_1_6/Decoder_2to4/Quartus_prj/../Sim/tb_Decoder_2to4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/FPGA/Lab_1_6/Decoder_2to4/Quartus_prj/../Sim|E:/FPGA/Lab_1_6/Decoder_2to4/Quartus_prj/../Sim/tb_Decoder_2to4.v|
+!i113 0
+R5
+!s92 -vlog01compat -work work +incdir+E:/FPGA/Lab_1_6/Decoder_2to4/Quartus_prj/../Sim -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+ntb_@decoder_2to4

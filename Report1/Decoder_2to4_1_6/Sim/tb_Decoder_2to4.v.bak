@@ -1,0 +1,44 @@
+module tb_decoder_2to4;
+
+    // Inputs
+    reg enable;
+    reg a;
+    reg b;
+
+    // Outputs
+    wire [3:0] y;
+
+    // Instantiate the 2-to-4 decoder
+    decoder_2to4 uut (
+        .enable(enable),
+        .a(a),
+        .b(b),
+        .y(y)
+    );
+
+    initial begin
+        // Initialize Inputs
+        enable = 0;
+        a = 0;
+        b = 0;
+
+        // Monitor changes
+        $monitor("Time = %0d, Enable = %b, A = %b, B = %b, Y = %b", $time, enable, a, b, y);
+
+        // Test Case 1: Decoder disabled (Enable = 0)
+        #10 enable = 0; a = 0; b = 0;
+        #10 enable = 0; a = 1; b = 0;
+        #10 enable = 0; a = 0; b = 1;
+        #10 enable = 0; a = 1; b = 1;
+
+        // Test Case 2: Decoder enabled (Enable = 1)
+        #10 enable = 1; a = 0; b = 0;
+        #10 enable = 1; a = 1; b = 0;
+        #10 enable = 1; a = 0; b = 1;
+        #10 enable = 1; a = 1; b = 1;
+
+        // Finish simulation
+        #10 $finish;
+    end
+
+endmodule

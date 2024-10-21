@@ -1,0 +1,10 @@
+module decoder_2to4 (
+    input wire enable,   // Enable input (KEY1)
+    input wire a,        // First input (KEY2)
+    input wire b,        // Second input (KEY3)
+    output wire [3:0] y  // Outputs (LED3, LED2, LED1, LED0)
+);
+
+    assign y = (enable) ? (1 << {a, b}) : 4'b0000;
+
+endmodule
