@@ -1,0 +1,29 @@
+module comparator_1bit(
+    input A,
+    input B,
+    output reg LED1, // A < B
+    output reg LED2, // A = B
+    output reg LED3  // A > B
+);
+
+// Always block to evaluate input changes
+always @(A or B)
+begin
+    if (A < B) begin
+        LED1 = 1'b1; // Turn on LED1 when A < B
+        LED2 = 1'b0;
+        LED3 = 1'b0;
+    end
+    else if (A == B) begin
+        LED1 = 1'b0;
+        LED2 = 1'b1; // Turn on LED2 when A == B
+        LED3 = 1'b0;
+    end
+    else begin
+        LED1 = 1'b0;
+        LED2 = 1'b0;
+        LED3 = 1'b1; // Turn on LED3 when A > B
+    end
+end
+
+endmodule
