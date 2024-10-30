@@ -1,0 +1,73 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dE:/FPGA/Lab_2_3_1/Sim/modelsim/questa
+T_opt
+!s110 1730214914
+Ve01CL=31b3_V7kA0gi?lz2
+04 17 4 work tb_asyn_flip_flop fast 0
+=1-000000000bf3-6720fc00-3dd-70e34
+R0
+!s12b OEM100
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2023.3;77
+vasyn_flip_flop
+2E:/FPGA/Lab_2_3_1/RTL/asyn_flip_flop.v
+Z3 !s110 1730214908
+!i10b 1
+!s100 Vod69YS_E?belZ_Ke[G5d0
+I0mzGoAd;0eC>`>l<1ji8Z0
+R1
+w1729689351
+8E:/FPGA/Lab_2_3_1/RTL/asyn_flip_flop.v
+FE:/FPGA/Lab_2_3_1/RTL/asyn_flip_flop.v
+!i122 0
+L0 1 17
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2023.3;77
+r1
+!s85 0
+31
+!s108 1730214907.000000
+!s107 E:/FPGA/Lab_2_3_1/RTL/asyn_flip_flop.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/FPGA/Lab_2_3_1/RTL|E:/FPGA/Lab_2_3_1/RTL/asyn_flip_flop.v|
+!i113 0
+Z6 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work +incdir+E:/FPGA/Lab_2_3_1/RTL -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vtb_asyn_flip_flop
+2E:/FPGA/Lab_2_3_1/Quartus_prj/../Sim/tb_asyn_flip_flop.v
+R3
+!i10b 1
+!s100 Sd=gn<YUmPmkmc2b8H82c3
+IG:m4>Vcj<5ojhFk_GWzV:1
+R1
+w1730214747
+8E:/FPGA/Lab_2_3_1/Quartus_prj/../Sim/tb_asyn_flip_flop.v
+FE:/FPGA/Lab_2_3_1/Quartus_prj/../Sim/tb_asyn_flip_flop.v
+!i122 1
+L0 3 46
+R4
+R5
+r1
+!s85 0
+31
+!s108 1730214908.000000
+!s107 E:/FPGA/Lab_2_3_1/Quartus_prj/../Sim/tb_asyn_flip_flop.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/FPGA/Lab_2_3_1/Quartus_prj/../Sim|E:/FPGA/Lab_2_3_1/Quartus_prj/../Sim/tb_asyn_flip_flop.v|
+!i113 0
+R6
+!s92 -vlog01compat -work work +incdir+E:/FPGA/Lab_2_3_1/Quartus_prj/../Sim -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
