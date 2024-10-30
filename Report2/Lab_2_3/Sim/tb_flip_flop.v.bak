@@ -1,0 +1,50 @@
+`timescale 1ns/1ps
+
+module tb_flip_flop;
+
+reg clk;
+reg reset;
+reg D;
+wire Q;
+
+
+flip_flop uut (
+    .clk(clk),
+    .reset(reset),
+    .D(D),
+    .Q(Q)
+);
+
+
+initial begin
+    clk = 0;
+    forever #5 clk = ~clk;  
+end
+
+
+initial begin
+   
+    $monitor("Time=%0d : reset=%b, D=%b, Q=%b", $time, reset, D, Q);
+    
+   
+    reset = 0; 
+    D = 0; 
+    
+  
+    #10 reset = 1;  
+    #10 reset = 0; 
+    
+
+    #10 D = 1; 
+    #10; 
+    #10 D = 0;
+    #10; 
+    #10 D = 1;
+    #10;
+    #10 D = 0;
+    #10; 
+
+    #10 $finish;
+end
+
+endmodule
