@@ -1,0 +1,152 @@
+# Reading pref.tcl
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2023.3 win64 Jul 17 2023
+# //
+# //  Copyright 1991-2023 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do Avoid_latch_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Intel Starter FPGA Edition-64 vmap 2023.3 Lib Mapping Utility 2023.07 Jul 17 2023
+# vmap work rtl_work 
+# Copying c:/intelfpga_lite/23.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+E:/FPGA/Lab_2_2/RTL {E:/FPGA/Lab_2_2/RTL/latch_1.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 20:08:43 on Oct 23,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/FPGA/Lab_2_2/RTL" E:/FPGA/Lab_2_2/RTL/latch_1.v 
+# -- Compiling module latch_1
+# 
+# Top level modules:
+# 	latch_1
+# End time: 20:08:44 on Oct 23,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+E:/FPGA/Lab_2_2/Quartus_prj/../Sim {E:/FPGA/Lab_2_2/Quartus_prj/../Sim/tb_latch_1.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 20:08:44 on Oct 23,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/FPGA/Lab_2_2/Quartus_prj/../Sim" E:/FPGA/Lab_2_2/Quartus_prj/../Sim/tb_latch_1.v 
+# -- Compiling module tb_latch_1
+# 
+# Top level modules:
+# 	tb_latch_1
+# End time: 20:08:44 on Oct 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_latch_1
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb_latch_1 
+# Start time: 20:08:44 on Oct 23,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.tb_latch_1(fast)
+# Loading work.latch_1(fast)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 1 us
+# Time=0 : in1=1, in2=0, in3=0, out=00010000
+# Time=10 : in1=0, in2=0, in3=1, out=00000010
+# Time=30 : in1=0, in2=1, in3=1, out=00001000
+# Time=40 : in1=1, in2=0, in3=1, out=00100000
+# Time=70 : in1=0, in2=1, in3=0, out=00000100
+# Time=80 : in1=0, in2=0, in3=1, out=00000010
+# Time=90 : in1=1, in2=0, in3=1, out=00100000
+# Time=100 : in1=1, in2=1, in3=0, out=01000000
+# Time=110 : in1=1, in2=0, in3=1, out=00100000
+# Time=130 : in1=1, in2=0, in3=0, out=00010000
+# Time=140 : in1=0, in2=0, in3=1, out=00000010
+# Time=150 : in1=1, in2=1, in3=0, out=01000000
+# Time=160 : in1=1, in2=0, in3=1, out=00100000
+# Time=170 : in1=0, in2=1, in3=0, out=00000100
+# Time=180 : in1=1, in2=0, in3=1, out=00100000
+# Time=190 : in1=1, in2=1, in3=1, out=10000000
+# Time=200 : in1=0, in2=1, in3=0, out=00000100
+# Time=210 : in1=1, in2=1, in3=1, out=10000000
+# Time=220 : in1=0, in2=1, in3=0, out=00000100
+# Time=230 : in1=1, in2=1, in3=0, out=01000000
+# Time=240 : in1=0, in2=0, in3=0, out=00000001
+# Time=250 : in1=1, in2=0, in3=1, out=00100000
+# Time=260 : in1=1, in2=0, in3=0, out=00010000
+# Time=270 : in1=1, in2=0, in3=1, out=00100000
+# Time=300 : in1=0, in2=1, in3=1, out=00001000
+# Time=310 : in1=0, in2=1, in3=0, out=00000100
+# Time=320 : in1=0, in2=0, in3=0, out=00000001
+# Time=340 : in1=0, in2=1, in3=0, out=00000100
+# Time=350 : in1=1, in2=0, in3=1, out=00100000
+# Time=360 : in1=1, in2=1, in3=0, out=01000000
+# Time=370 : in1=0, in2=1, in3=1, out=00001000
+# Time=380 : in1=1, in2=0, in3=1, out=00100000
+# Time=390 : in1=0, in2=1, in3=1, out=00001000
+# Time=410 : in1=1, in2=0, in3=1, out=00100000
+# Time=420 : in1=0, in2=1, in3=0, out=00000100
+# Time=430 : in1=1, in2=1, in3=0, out=01000000
+# Time=440 : in1=1, in2=0, in3=1, out=00100000
+# Time=450 : in1=1, in2=1, in3=1, out=10000000
+# Time=460 : in1=0, in2=1, in3=1, out=00001000
+# Time=470 : in1=0, in2=1, in3=0, out=00000100
+# Time=490 : in1=1, in2=0, in3=0, out=00010000
+# Time=500 : in1=0, in2=1, in3=0, out=00000100
+# Time=520 : in1=0, in2=0, in3=1, out=00000010
+# Time=530 : in1=0, in2=0, in3=0, out=00000001
+# Time=550 : in1=0, in2=0, in3=1, out=00000010
+# Time=560 : in1=0, in2=1, in3=1, out=00001000
+# Time=570 : in1=1, in2=1, in3=0, out=01000000
+# Time=600 : in1=1, in2=0, in3=0, out=00010000
+# Time=610 : in1=0, in2=1, in3=0, out=00000100
+# Time=620 : in1=0, in2=1, in3=1, out=00001000
+# Time=630 : in1=0, in2=0, in3=1, out=00000010
+# Time=640 : in1=1, in2=0, in3=1, out=00100000
+# Time=650 : in1=1, in2=1, in3=1, out=10000000
+# Time=660 : in1=0, in2=1, in3=1, out=00001000
+# Time=670 : in1=0, in2=1, in3=0, out=00000100
+# Time=680 : in1=1, in2=1, in3=0, out=01000000
+# Time=690 : in1=1, in2=0, in3=1, out=00100000
+# Time=700 : in1=0, in2=0, in3=1, out=00000010
+# Time=720 : in1=0, in2=1, in3=0, out=00000100
+# Time=730 : in1=1, in2=0, in3=0, out=00010000
+# Time=740 : in1=1, in2=1, in3=1, out=10000000
+# Time=760 : in1=0, in2=0, in3=0, out=00000001
+# Time=770 : in1=1, in2=1, in3=1, out=10000000
+# Time=790 : in1=1, in2=0, in3=0, out=00010000
+# Time=800 : in1=0, in2=1, in3=1, out=00001000
+# Time=810 : in1=0, in2=0, in3=1, out=00000010
+# Time=830 : in1=0, in2=0, in3=0, out=00000001
+# Time=840 : in1=1, in2=1, in3=1, out=10000000
+# Time=850 : in1=0, in2=0, in3=1, out=00000010
+# Time=860 : in1=1, in2=1, in3=0, out=01000000
+# Time=870 : in1=1, in2=0, in3=0, out=00010000
+# Time=880 : in1=0, in2=1, in3=0, out=00000100
+# Time=890 : in1=0, in2=0, in3=0, out=00000001
+# Time=900 : in1=1, in2=1, in3=1, out=10000000
+# Time=910 : in1=1, in2=0, in3=1, out=00100000
+# Time=920 : in1=0, in2=1, in3=0, out=00000100
+# Time=930 : in1=1, in2=1, in3=0, out=01000000
+# Time=940 : in1=1, in2=0, in3=1, out=00100000
+# Time=950 : in1=0, in2=0, in3=1, out=00000010
+# Time=960 : in1=1, in2=1, in3=1, out=10000000
+# Time=970 : in1=0, in2=1, in3=1, out=00001000
+# Time=980 : in1=1, in2=0, in3=1, out=00100000
+# Time=990 : in1=0, in2=0, in3=0, out=00000001
+# ** Note: $finish    : E:/FPGA/Lab_2_2/Quartus_prj/../Sim/tb_latch_1.v(25)
+#    Time: 1 us  Iteration: 0  Instance: /tb_latch_1
+# 1
+# Break in Module tb_latch_1 at E:/FPGA/Lab_2_2/Quartus_prj/../Sim/tb_latch_1.v line 25
+# End time: 20:14:23 on Oct 23,2024, Elapsed time: 0:05:39
+# Errors: 0, Warnings: 1
