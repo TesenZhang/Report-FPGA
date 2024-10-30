@@ -1,0 +1,26 @@
+module led_counter(
+    input wire sys_clk,      // 系统时钟信号 (50MHz)
+    input wire sys_rst_n,    // 复位信号，低电平有效
+    output reg led_out       // LED控制信号
+);
+
+// 定义一个计数器，根据50MHz的时钟频率，计算1Hz的闪烁
+// 0.5秒 = 50000000 / 2 = 25000000个时钟周期
+localparam integer CNT_MAX = 25000000;
+reg [24:0] cnt;  // 定义25位计数器，用于实现0.5秒的计数
+
+always @(posedge sys_clk or negedge sys_rst_n) begin
+    if (!sys_rst_n) begin
+        cnt <= 0;
+        led_out <= 1;  // 初始状态LED为亮
+    end else begin
+        if (cnt < CNT_MAX - 1) begin
+            cnt <= cnt + 1;
+        end else begin
+            cnt <= 0;         // 计数器清零
+            led_out <= ~led_out; // 反转LED状态，实现亮灭交替
+        end
+    end
+end
+
+endmodule
