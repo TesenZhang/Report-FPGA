@@ -1,0 +1,73 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dE:/FPGA/Lab_5_3/Sim/modelsim/questa
+T_opt
+!s110 1732638655
+VLmTX<RO88CCM1Ib971YPL1
+04 15 4 work tb_key_debounce fast 0
+=1-000000000bf3-6745f7bb-285-153460
+R0
+!s12b OEM100
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2023.3;77
+vkey_debounce
+2E:/FPGA/Lab_5_3/RTL/key_debounce.v
+!s110 1732638645
+!i10b 1
+!s100 UHe?4FTkdJ2bN1cKL=QFO1
+IJ?VKzMn]hd]ic<NW7Xa8M1
+R1
+w1732092841
+8E:/FPGA/Lab_5_3/RTL/key_debounce.v
+FE:/FPGA/Lab_5_3/RTL/key_debounce.v
+!i122 0
+L0 1 37
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OL;L;2023.3;77
+r1
+!s85 0
+31
+!s108 1732638644.000000
+!s107 E:/FPGA/Lab_5_3/RTL/key_debounce.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/FPGA/Lab_5_3/RTL|E:/FPGA/Lab_5_3/RTL/key_debounce.v|
+!i113 0
+Z5 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work +incdir+E:/FPGA/Lab_5_3/RTL -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vtb_key_debounce
+2E:/FPGA/Lab_5_3/Quartus_prj/../Sim/tb_key_deounce.v
+!s110 1732638647
+!i10b 1
+!s100 g;^oDC7ad2QX4S^;;XjEk0
+I]8cF[GUR_EDVchXBTS`GK1
+R1
+w1732092655
+8E:/FPGA/Lab_5_3/Quartus_prj/../Sim/tb_key_deounce.v
+FE:/FPGA/Lab_5_3/Quartus_prj/../Sim/tb_key_deounce.v
+!i122 1
+L0 2 52
+R3
+R4
+r1
+!s85 0
+31
+!s108 1732638645.000000
+!s107 E:/FPGA/Lab_5_3/Quartus_prj/../Sim/tb_key_deounce.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/FPGA/Lab_5_3/Quartus_prj/../Sim|E:/FPGA/Lab_5_3/Quartus_prj/../Sim/tb_key_deounce.v|
+!i113 0
+R5
+!s92 -vlog01compat -work work +incdir+E:/FPGA/Lab_5_3/Quartus_prj/../Sim -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
