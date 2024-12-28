@@ -1,0 +1,263 @@
+# Reading pref.tcl
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2023.3 win64 Jul 17 2023
+# //
+# //  Copyright 1991-2023 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do snake_top_run_msim_rtl_verilog.do
+# if ![file isdirectory snake_top_iputf_libs] {
+# 	file mkdir snake_top_iputf_libs
+# }
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Intel Starter FPGA Edition-64 vmap 2023.3 Lib Mapping Utility 2023.07 Jul 17 2023
+# vmap work rtl_work 
+# Copying c:/intelfpga_lite/23.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+###### Libraries for IPUTF cores 
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+# 
+# 
+# vlog "E:/FPGA/FinalProject_1/Quartus_prj/pll_sim/pll.vo"
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 17:41:09 on Dec 28,2024
+# vlog -reportprogress 300 E:/FPGA/FinalProject_1/Quartus_prj/pll_sim/pll.vo 
+# -- Compiling module pll
+# 
+# Top level modules:
+# 	pll
+# End time: 17:41:11 on Dec 28,2024, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+E:/FPGA/FinalProject_1/RTL {E:/FPGA/FinalProject_1/RTL/top_seg_595.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 17:41:12 on Dec 28,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/FPGA/FinalProject_1/RTL" E:/FPGA/FinalProject_1/RTL/top_seg_595.v 
+# -- Compiling module top_seg_595
+# 
+# Top level modules:
+# 	top_seg_595
+# End time: 17:41:12 on Dec 28,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/FPGA/FinalProject_1/RTL {E:/FPGA/FinalProject_1/RTL/seg_dynamic.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 17:41:13 on Dec 28,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/FPGA/FinalProject_1/RTL" E:/FPGA/FinalProject_1/RTL/seg_dynamic.v 
+# -- Compiling module seg_dynamic
+# 
+# Top level modules:
+# 	seg_dynamic
+# End time: 17:41:13 on Dec 28,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/FPGA/FinalProject_1/RTL {E:/FPGA/FinalProject_1/RTL/seg_595_dynamic.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 17:41:14 on Dec 28,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/FPGA/FinalProject_1/RTL" E:/FPGA/FinalProject_1/RTL/seg_595_dynamic.v 
+# -- Compiling module seg_595_dynamic
+# 
+# Top level modules:
+# 	seg_595_dynamic
+# End time: 17:41:15 on Dec 28,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/FPGA/FinalProject_1/RTL {E:/FPGA/FinalProject_1/RTL/hc595_ctrl.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 17:41:15 on Dec 28,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/FPGA/FinalProject_1/RTL" E:/FPGA/FinalProject_1/RTL/hc595_ctrl.v 
+# -- Compiling module hc595_ctrl
+# 
+# Top level modules:
+# 	hc595_ctrl
+# End time: 17:41:17 on Dec 28,2024, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/FPGA/FinalProject_1/RTL {E:/FPGA/FinalProject_1/RTL/data_gen.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 17:41:17 on Dec 28,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/FPGA/FinalProject_1/RTL" E:/FPGA/FinalProject_1/RTL/data_gen.v 
+# -- Compiling module data_gen
+# 
+# Top level modules:
+# 	data_gen
+# End time: 17:41:18 on Dec 28,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/FPGA/FinalProject_1/RTL {E:/FPGA/FinalProject_1/RTL/bcd_8421.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 17:41:18 on Dec 28,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/FPGA/FinalProject_1/RTL" E:/FPGA/FinalProject_1/RTL/bcd_8421.v 
+# -- Compiling module bcd_8421
+# 
+# Top level modules:
+# 	bcd_8421
+# End time: 17:41:19 on Dec 28,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/FPGA/FinalProject_1/Quartus_prj {E:/FPGA/FinalProject_1/Quartus_prj/key_debounce.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 17:41:19 on Dec 28,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/FPGA/FinalProject_1/Quartus_prj" E:/FPGA/FinalProject_1/Quartus_prj/key_debounce.v 
+# -- Compiling module key_debounce
+# 
+# Top level modules:
+# 	key_debounce
+# End time: 17:41:19 on Dec 28,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/FPGA/FinalProject_1/Quartus_prj {E:/FPGA/FinalProject_1/Quartus_prj/VGA_control.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 17:41:20 on Dec 28,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/FPGA/FinalProject_1/Quartus_prj" E:/FPGA/FinalProject_1/Quartus_prj/VGA_control.v 
+# -- Compiling module VGA_control
+# 
+# Top level modules:
+# 	VGA_control
+# End time: 17:41:23 on Dec 28,2024, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/FPGA/FinalProject_1/Quartus_prj {E:/FPGA/FinalProject_1/Quartus_prj/snake.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 17:41:23 on Dec 28,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/FPGA/FinalProject_1/Quartus_prj" E:/FPGA/FinalProject_1/Quartus_prj/snake.v 
+# -- Compiling module snake
+# 
+# Top level modules:
+# 	snake
+# End time: 17:41:25 on Dec 28,2024, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/FPGA/FinalProject_1/Quartus_prj {E:/FPGA/FinalProject_1/Quartus_prj/apple_generate.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 17:41:26 on Dec 28,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/FPGA/FinalProject_1/Quartus_prj" E:/FPGA/FinalProject_1/Quartus_prj/apple_generate.v 
+# -- Compiling module apple_generate
+# 
+# Top level modules:
+# 	apple_generate
+# End time: 17:41:27 on Dec 28,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/FPGA/FinalProject_1/Quartus_prj {E:/FPGA/FinalProject_1/Quartus_prj/game_ctrl_unit.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 17:41:27 on Dec 28,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/FPGA/FinalProject_1/Quartus_prj" E:/FPGA/FinalProject_1/Quartus_prj/game_ctrl_unit.v 
+# -- Compiling module game_ctrl_unit
+# 
+# Top level modules:
+# 	game_ctrl_unit
+# End time: 17:41:30 on Dec 28,2024, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/FPGA/FinalProject_1/Quartus_prj {E:/FPGA/FinalProject_1/Quartus_prj/score_ctrl.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 17:41:31 on Dec 28,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/FPGA/FinalProject_1/Quartus_prj" E:/FPGA/FinalProject_1/Quartus_prj/score_ctrl.v 
+# -- Compiling module score_ctrl
+# 
+# Top level modules:
+# 	score_ctrl
+# End time: 17:41:31 on Dec 28,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/FPGA/FinalProject_1/Quartus_prj {E:/FPGA/FinalProject_1/Quartus_prj/snake_top.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 17:41:33 on Dec 28,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/FPGA/FinalProject_1/Quartus_prj" E:/FPGA/FinalProject_1/Quartus_prj/snake_top.v 
+# -- Compiling module snake_top
+# 
+# Top level modules:
+# 	snake_top
+# End time: 17:41:33 on Dec 28,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/FPGA/FinalProject_1/Quartus_prj/pll {E:/FPGA/FinalProject_1/Quartus_prj/pll/pll.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 17:41:34 on Dec 28,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/FPGA/FinalProject_1/Quartus_prj/pll" E:/FPGA/FinalProject_1/Quartus_prj/pll/pll.v 
+# -- Compiling module pll
+# 
+# Top level modules:
+# 	pll
+# End time: 17:41:35 on Dec 28,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/FPGA/FinalProject_1/Quartus_prj/db {E:/FPGA/FinalProject_1/Quartus_prj/db/pll_altpll.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 17:41:36 on Dec 28,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/FPGA/FinalProject_1/Quartus_prj/db" E:/FPGA/FinalProject_1/Quartus_prj/db/pll_altpll.v 
+# -- Compiling module pll_altpll
+# 
+# Top level modules:
+# 	pll_altpll
+# End time: 17:41:36 on Dec 28,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+E:/FPGA/FinalProject_1/Quartus_prj {E:/FPGA/FinalProject_1/Quartus_prj/snake_top_tb.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 17:41:37 on Dec 28,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/FPGA/FinalProject_1/Quartus_prj" E:/FPGA/FinalProject_1/Quartus_prj/snake_top_tb.v 
+# -- Compiling module snake_top_tb
+# 
+# Top level modules:
+# 	snake_top_tb
+# End time: 17:41:37 on Dec 28,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  snake_top_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" snake_top_tb 
+# Start time: 17:41:40 on Dec 28,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vopt-143) Recognized 1 FSM in module "snake(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "game_ctrl_unit(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.snake_top_tb(fast)
+# Loading work.snake_top(fast)
+# Loading work.pll(fast)
+# Loading altera_mf_ver.altpll(fast)
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES(fast)
+# Loading altera_mf_ver.MF_cycloneiii_pll(fast)
+# Loading altera_mf_ver.cda_m_cntr(fast)
+# Loading altera_mf_ver.cda_n_cntr(fast)
+# Loading altera_mf_ver.cda_scale_cntr(fast)
+# Loading altera_mf_ver.pll_iobuf(fast)
+# Loading work.game_ctrl_unit(fast)
+# Loading work.apple_generate(fast)
+# Loading work.snake(fast)
+# Loading work.VGA_control(fast)
+# Loading work.score_ctrl(fast)
+# Loading work.key_debounce(fast)
+# Loading work.top_seg_595(fast)
+# Loading work.data_gen(fast)
+# Loading work.seg_595_dynamic(fast)
+# Loading work.seg_dynamic(fast)
+# Loading work.bcd_8421(fast)
+# Loading work.hc595_ctrl(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (12) for port 'bcd_data'. The port definition is at: E:/FPGA/FinalProject_1/RTL/top_seg_595.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /snake_top_tb/uut/U6 File: E:/FPGA/FinalProject_1/Quartus_prj/snake_top.v Line: 164
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (8) for port 'bcd_data'. The port definition is at: E:/FPGA/FinalProject_1/RTL/seg_595_dynamic.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /snake_top_tb/uut/U6/seg_595_dynamic_inst File: E:/FPGA/FinalProject_1/RTL/top_seg_595.v Line: 37
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (12) for port 'bcd_data'. The port definition is at: E:/FPGA/FinalProject_1/RTL/seg_dynamic.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /snake_top_tb/uut/U6/seg_595_dynamic_inst/seg_dynamic_inst File: E:/FPGA/FinalProject_1/RTL/seg_595_dynamic.v Line: 23
+# ** Warning: (vsim-3015) [PCDPC] - Port size (20) does not match connection size (21) for port 'data'. The port definition is at: E:/FPGA/FinalProject_1/RTL/bcd_8421.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /snake_top_tb/uut/U6/seg_595_dynamic_inst/seg_dynamic_inst/bcd_8421_inst1 File: E:/FPGA/FinalProject_1/RTL/seg_dynamic.v Line: 160
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#  Note : Cyclone IV E PLL was reset
+# Time: 0  Instance: snake_top_tb.uut.pll_inst.altpll_component.cycloneiii_pll.pll3
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 170000  Instance: snake_top_tb.uut.pll_inst.altpll_component.cycloneiii_pll.pll3
+# Causality operation skipped due to absence of debug database file
+# ** Note: $stop    : E:/FPGA/FinalProject_1/Quartus_prj/snake_top_tb.v(79)
+#    Time: 61217480 ns  Iteration: 0  Instance: /snake_top_tb
+# Break in Module snake_top_tb at E:/FPGA/FinalProject_1/Quartus_prj/snake_top_tb.v line 79
+# End time: 20:31:33 on Dec 28,2024, Elapsed time: 2:49:53
+# Errors: 0, Warnings: 5

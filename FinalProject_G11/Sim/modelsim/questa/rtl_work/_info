@@ -1,0 +1,410 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dE:/FPGA/FinalProject_1/Sim/modelsim/questa
+T_opt
+!s110 1735378908
+V9D8CAkC`hMWX74<hCzn[a3
+04 12 4 work snake_top_tb fast 0
+=1-000000000bf3-676fc7d6-3d2-154e38
+R0
+!s12b OEM100
+!s124 OEM10U19 
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2023.3;77
+vapple_generate
+2E:/FPGA/FinalProject_1/Quartus_prj/apple_generate.v
+!s110 1735378887
+!i10b 1
+!s100 >zRlkhJSgYlnT35?8>MR53
+Ie5`g9l0G^[2ZLfO9W0NZT3
+R1
+w1734598394
+8E:/FPGA/FinalProject_1/Quartus_prj/apple_generate.v
+FE:/FPGA/FinalProject_1/Quartus_prj/apple_generate.v
+!i122 10
+L0 2 52
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OL;L;2023.3;77
+r1
+!s85 0
+31
+!s108 1735378886.000000
+!s107 E:/FPGA/FinalProject_1/Quartus_prj/apple_generate.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/FPGA/FinalProject_1/Quartus_prj|E:/FPGA/FinalProject_1/Quartus_prj/apple_generate.v|
+!i113 0
+Z5 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 !s92 -vlog01compat -work work +incdir+E:/FPGA/FinalProject_1/Quartus_prj -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vbcd_8421
+2E:/FPGA/FinalProject_1/RTL/bcd_8421.v
+Z7 !s110 1735378879
+!i10b 1
+!s100 ?Mn]ezEd5QnTBK9M4<::R1
+I>@L_9^icP][P8^:GJz7B=1
+R1
+w1735283913
+8E:/FPGA/FinalProject_1/RTL/bcd_8421.v
+FE:/FPGA/FinalProject_1/RTL/bcd_8421.v
+!i122 6
+L0 1 84
+R3
+R4
+r1
+!s85 0
+31
+!s108 1735378878.000000
+!s107 E:/FPGA/FinalProject_1/RTL/bcd_8421.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/FPGA/FinalProject_1/RTL|E:/FPGA/FinalProject_1/RTL/bcd_8421.v|
+!i113 0
+R5
+Z8 !s92 -vlog01compat -work work +incdir+E:/FPGA/FinalProject_1/RTL -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vdata_gen
+2E:/FPGA/FinalProject_1/RTL/data_gen.v
+!s110 1735378878
+!i10b 1
+!s100 >JaVLOk]M7Bm^Y9i<IK690
+IbVmKP4i6@EA^z]ZAD[>B=3
+R1
+w1735283886
+8E:/FPGA/FinalProject_1/RTL/data_gen.v
+FE:/FPGA/FinalProject_1/RTL/data_gen.v
+!i122 5
+L0 1 98
+R3
+R4
+r1
+!s85 0
+31
+!s108 1735378877.000000
+!s107 E:/FPGA/FinalProject_1/RTL/data_gen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/FPGA/FinalProject_1/RTL|E:/FPGA/FinalProject_1/RTL/data_gen.v|
+!i113 0
+R5
+R8
+R2
+vgame_ctrl_unit
+2E:/FPGA/FinalProject_1/Quartus_prj/game_ctrl_unit.v
+!s110 1735378890
+!i10b 1
+!s100 >Fl3Tg:VR_EcI5[OGBfMQ2
+IJHz3gAUW_O?A8BaYbY2XQ3
+R1
+w1735284395
+8E:/FPGA/FinalProject_1/Quartus_prj/game_ctrl_unit.v
+FE:/FPGA/FinalProject_1/Quartus_prj/game_ctrl_unit.v
+!i122 11
+L0 3 101
+R3
+R4
+r1
+!s85 0
+31
+!s108 1735378887.000000
+!s107 E:/FPGA/FinalProject_1/Quartus_prj/game_ctrl_unit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/FPGA/FinalProject_1/Quartus_prj|E:/FPGA/FinalProject_1/Quartus_prj/game_ctrl_unit.v|
+!i113 0
+R5
+R6
+R2
+vhc595_ctrl
+2E:/FPGA/FinalProject_1/RTL/hc595_ctrl.v
+!s110 1735378877
+!i10b 1
+!s100 P?6deW>W;ofE?1eaoam<T0
+IBJCe3W6_Y_oW[GSRTWL4X3
+R1
+Z9 w1735284488
+8E:/FPGA/FinalProject_1/RTL/hc595_ctrl.v
+FE:/FPGA/FinalProject_1/RTL/hc595_ctrl.v
+!i122 4
+Z10 L0 3 80
+R3
+R4
+r1
+!s85 0
+31
+!s108 1735378875.000000
+!s107 E:/FPGA/FinalProject_1/RTL/hc595_ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/FPGA/FinalProject_1/RTL|E:/FPGA/FinalProject_1/RTL/hc595_ctrl.v|
+!i113 0
+R5
+R8
+R2
+vkey_debounce
+2E:/FPGA/FinalProject_1/Quartus_prj/key_debounce.v
+R7
+!i10b 1
+!s100 UHe?4FTkdJ2bN1cKL=QFO1
+IJd?AJkZI]THQLMm?U9M1z0
+R1
+w1735371217
+8E:/FPGA/FinalProject_1/Quartus_prj/key_debounce.v
+FE:/FPGA/FinalProject_1/Quartus_prj/key_debounce.v
+!i122 7
+L0 1 37
+R3
+R4
+r1
+!s85 0
+31
+!s108 1735378879.000000
+!s107 E:/FPGA/FinalProject_1/Quartus_prj/key_debounce.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/FPGA/FinalProject_1/Quartus_prj|E:/FPGA/FinalProject_1/Quartus_prj/key_debounce.v|
+!i113 0
+R5
+R6
+R2
+vpll
+2E:/FPGA/FinalProject_1/Quartus_prj/pll/pll.v
+!s110 1735378895
+!i10b 1
+!s100 >l23X6IR38bCK2Vh5Cn0H1
+IV5Dgk5O?@cz^;dIeG]KYW2
+R1
+w1733048817
+8E:/FPGA/FinalProject_1/Quartus_prj/pll/pll.v
+FE:/FPGA/FinalProject_1/Quartus_prj/pll/pll.v
+!i122 14
+L0 40 124
+R3
+R4
+r1
+!s85 0
+31
+!s108 1735378894.000000
+!s107 E:/FPGA/FinalProject_1/Quartus_prj/pll/pll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/FPGA/FinalProject_1/Quartus_prj/pll|E:/FPGA/FinalProject_1/Quartus_prj/pll/pll.v|
+!i113 0
+R5
+!s92 -vlog01compat -work work +incdir+E:/FPGA/FinalProject_1/Quartus_prj/pll -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vpll_altpll
+2E:/FPGA/FinalProject_1/Quartus_prj/db/pll_altpll.v
+!s110 1735378896
+!i10b 1
+!s100 eD>hBPO`V=@5KGHcD5Zf;2
+In1ci_9JJe1PIjD8<BITbT1
+R1
+w1733048848
+8E:/FPGA/FinalProject_1/Quartus_prj/db/pll_altpll.v
+FE:/FPGA/FinalProject_1/Quartus_prj/db/pll_altpll.v
+!i122 15
+L0 31 79
+R3
+R4
+r1
+!s85 0
+31
+!s108 1735378896.000000
+!s107 E:/FPGA/FinalProject_1/Quartus_prj/db/pll_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/FPGA/FinalProject_1/Quartus_prj/db|E:/FPGA/FinalProject_1/Quartus_prj/db/pll_altpll.v|
+!i113 0
+R5
+!s92 -vlog01compat -work work +incdir+E:/FPGA/FinalProject_1/Quartus_prj/db -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vscore_ctrl
+2E:/FPGA/FinalProject_1/Quartus_prj/score_ctrl.v
+!s110 1735378891
+!i10b 1
+!s100 ElC[OGgacgWFd?LMQ`cFU1
+IDN]_AlHHbj?N>Q79MP`0Q3
+R1
+w1735284489
+8E:/FPGA/FinalProject_1/Quartus_prj/score_ctrl.v
+FE:/FPGA/FinalProject_1/Quartus_prj/score_ctrl.v
+!i122 12
+L0 2 30
+R3
+R4
+r1
+!s85 0
+31
+!s108 1735378891.000000
+!s107 E:/FPGA/FinalProject_1/Quartus_prj/score_ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/FPGA/FinalProject_1/Quartus_prj|E:/FPGA/FinalProject_1/Quartus_prj/score_ctrl.v|
+!i113 0
+R5
+R6
+R2
+vseg_595_dynamic
+2E:/FPGA/FinalProject_1/RTL/seg_595_dynamic.v
+!s110 1735378875
+!i10b 1
+!s100 h[4Hba0[LfUkPJL2e5jLI1
+I`d]0d1T@S:AFMmE1_=4]>0
+R1
+w1735284583
+8E:/FPGA/FinalProject_1/RTL/seg_595_dynamic.v
+FE:/FPGA/FinalProject_1/RTL/seg_595_dynamic.v
+!i122 3
+L0 3 51
+R3
+R4
+r1
+!s85 0
+31
+!s108 1735378874.000000
+!s107 E:/FPGA/FinalProject_1/RTL/seg_595_dynamic.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/FPGA/FinalProject_1/RTL|E:/FPGA/FinalProject_1/RTL/seg_595_dynamic.v|
+!i113 0
+R5
+R8
+R2
+vseg_dynamic
+2E:/FPGA/FinalProject_1/RTL/seg_dynamic.v
+!s110 1735378873
+!i10b 1
+!s100 @YoA_DF2lAWPDQBMOEHjn0
+IdiNjVia<7Vo5g>WfEjiSH1
+R1
+w1735284611
+8E:/FPGA/FinalProject_1/RTL/seg_dynamic.v
+FE:/FPGA/FinalProject_1/RTL/seg_dynamic.v
+!i122 2
+L0 1 188
+R3
+R4
+r1
+!s85 0
+31
+!s108 1735378873.000000
+!s107 E:/FPGA/FinalProject_1/RTL/seg_dynamic.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/FPGA/FinalProject_1/RTL|E:/FPGA/FinalProject_1/RTL/seg_dynamic.v|
+!i113 0
+R5
+R8
+R2
+vsnake
+2E:/FPGA/FinalProject_1/Quartus_prj/snake.v
+!s110 1735378885
+!i10b 1
+!s100 P@OCFM0;H=n>4AU=H21Ce1
+IX_@`V<`HLZ32^@E;FFn@82
+R1
+w1735284531
+8E:/FPGA/FinalProject_1/Quartus_prj/snake.v
+FE:/FPGA/FinalProject_1/Quartus_prj/snake.v
+!i122 9
+L0 2 389
+R3
+R4
+r1
+!s85 0
+31
+!s108 1735378883.000000
+!s107 E:/FPGA/FinalProject_1/Quartus_prj/snake.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/FPGA/FinalProject_1/Quartus_prj|E:/FPGA/FinalProject_1/Quartus_prj/snake.v|
+!i113 0
+R5
+R6
+R2
+vsnake_top
+2E:/FPGA/FinalProject_1/Quartus_prj/snake_top.v
+!s110 1735378893
+!i10b 1
+!s100 OC^_NDG]zDB7lcd_Vg7?N2
+I[XREniU]N:`XPOJHb^i:Z2
+R1
+w1735378162
+8E:/FPGA/FinalProject_1/Quartus_prj/snake_top.v
+FE:/FPGA/FinalProject_1/Quartus_prj/snake_top.v
+!i122 13
+L0 2 177
+R3
+R4
+r1
+!s85 0
+31
+!s108 1735378893.000000
+!s107 E:/FPGA/FinalProject_1/Quartus_prj/snake_top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/FPGA/FinalProject_1/Quartus_prj|E:/FPGA/FinalProject_1/Quartus_prj/snake_top.v|
+!i113 0
+R5
+R6
+R2
+vsnake_top_tb
+2E:/FPGA/FinalProject_1/Quartus_prj/snake_top_tb.v
+!s110 1735378897
+!i10b 1
+!s100 J[XU;`UKS3L8J4YQ>93A:0
+I;ceCN?`gO>fO=ADPGJml^0
+R1
+w1735322556
+8E:/FPGA/FinalProject_1/Quartus_prj/snake_top_tb.v
+FE:/FPGA/FinalProject_1/Quartus_prj/snake_top_tb.v
+!i122 16
+R10
+R3
+R4
+r1
+!s85 0
+31
+!s108 1735378897.000000
+!s107 E:/FPGA/FinalProject_1/Quartus_prj/snake_top_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/FPGA/FinalProject_1/Quartus_prj|E:/FPGA/FinalProject_1/Quartus_prj/snake_top_tb.v|
+!i113 0
+R5
+R6
+R2
+vtop_seg_595
+2E:/FPGA/FinalProject_1/RTL/top_seg_595.v
+!s110 1735378872
+!i10b 1
+!s100 ZU:zI;@SA8KESj<LbM3mz1
+IZIliH;]VjecNS0lB5LG[N0
+R1
+w1735284487
+8E:/FPGA/FinalProject_1/RTL/top_seg_595.v
+FE:/FPGA/FinalProject_1/RTL/top_seg_595.v
+!i122 1
+L0 1 53
+R3
+R4
+r1
+!s85 0
+31
+!s108 1735378872.000000
+!s107 E:/FPGA/FinalProject_1/RTL/top_seg_595.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/FPGA/FinalProject_1/RTL|E:/FPGA/FinalProject_1/RTL/top_seg_595.v|
+!i113 0
+R5
+R8
+R2
+vVGA_control
+2E:/FPGA/FinalProject_1/Quartus_prj/VGA_control.v
+!s110 1735378883
+!i10b 1
+!s100 FXU;o=a@DG?OkZi9fNc<=1
+IYXZiL=O>^0O6g^Ga>FeKW1
+R1
+R9
+8E:/FPGA/FinalProject_1/Quartus_prj/VGA_control.v
+FE:/FPGA/FinalProject_1/Quartus_prj/VGA_control.v
+!i122 8
+L0 3 456
+R3
+R4
+r1
+!s85 0
+31
+!s108 1735378880.000000
+!s107 E:/FPGA/FinalProject_1/Quartus_prj/VGA_control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/FPGA/FinalProject_1/Quartus_prj|E:/FPGA/FinalProject_1/Quartus_prj/VGA_control.v|
+!i113 0
+R5
+R6
+R2
+n@v@g@a_control

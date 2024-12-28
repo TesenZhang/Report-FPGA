@@ -1,0 +1,86 @@
+`timescale 1ns / 1ps
+
+module tb_key_debounce;
+
+    // 参数定义
+    parameter CLK_PERIOD = 10; // 时钟周期为10ns (100MHz)
+
+    // 输入信号
+    reg clk;
+    reg rst_n;
+    reg key_up;
+    reg key_down;
+    reg key_left;
+    reg key_right;
+
+    // 输出信号
+    wire deal_key_up;
+    wire deal_key_down;
+    wire deal_key_left;
+    wire deal_key_right;
+
+    // 实例化被测模块
+    key_debounce uut (
+        .clk(clk),
+        .rst_n(rst_n),
+        .key_up(key_up),
+        .key_down(key_down),
+        .key_left(key_left),
+        .key_right(key_right),
+        .deal_key_up(deal_key_up),
+        .deal_key_down(deal_key_down),
+        .deal_key_left(deal_key_left),
+        .deal_key_right(deal_key_right)
+    );
+
+    // 时钟生成
+    initial begin
+        clk = 0;
+        forever #(CLK_PERIOD/2) clk = ~clk;
+    end
+
+    // 初始化信号
+    initial begin
+        // 生成波形文件
+        $dumpfile("key_debounce_tb.vcd");
+        $dumpvars(0, key_debounce_tb);
+
+        // 初始化复位
+        rst_n = 0;
+        key_up = 1;
+        key_down = 1;
+        key_left = 1;
+        key_right = 1;
+
+        // 释放复位
+        #20 rst_n = 1;
+
+        // 模拟按键上弹（无抖动）
+        #100 key_up = 0;
+        #100 key_up = 1;
+
+        // 模拟按键下按（有抖动）
+        #200;
+        key_down = 0;
+        // 模拟抖动：快速多次变化
+        #5 key_down = 1;
+        #5 key_down = 0;
+        #5 key_down = 1;
+        #5 key_down = 0;
+        #20 key_down = 1;
+
+        // 模拟按键左按（有较长的按下时间）
+        #300 key_left = 0;
+        #500 key_left = 1;
+
+        // 模拟按键右按（连续多次按下）
+        #400 key_right = 0;
+        #50 key_right = 1;
+        #50 key_right = 0;
+        #50 key_right = 1;
+
+        // 结束仿真
+        #1000 $finish;
+    end
+
+endmodule
